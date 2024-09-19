@@ -1,0 +1,474 @@
+{
+    "infoText": "<b>Affinity Points</b> represent your relationships with other characters. You <b>earn</b> these points through your <b>choices</b>, and they are permanent—they never decrease.<br><br>This interface displays your current affinity points both numerically and in relation to available affinity <b>unlocks</b>. You can also modify your affinity points here. Remember to <b>unlock</b> editing mode in the top-right corner; it locks every time you close the interface. To make your changes permanent, you need to hit a checkpoint after editing.<br><br><color=#b0d6cb>Fang</color> has a unique, hidden affinity with themselves.<br><br>If you encounter any issues, feel free to contact me on:<br><color=#4DABF7><link=\"https://discord.gg/eXF5QxcWSW\">GVH Modding Server</link></color> or on Discord @Comahar.",
+    "items": [
+        {
+            "name": "Fang",
+            "iconAssetName": "fangAvatar",
+            "inkVariableName": "fangPoints",
+            "itemIndicators": [
+                { "value": 10.0, "name": "I can't believe this actually happened. (Photo)", "description": "Reach before <b>Episode 5 Scene 8</b><br><align=\"right\">ID: 508A<br>10 Points</align>" }
+            ],
+            "sections": [
+                {
+                    "name": "Ring 1",
+                    "value": 1.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.6000000238418579,
+                        "b": 0.6000000238418579,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 2",
+                    "value": 6.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.800000011920929,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Required for all unlocks",
+                    "value": 10.0,
+                    "color": {
+                        "r": 0.699999988079071,
+                        "g": 0.6000000238418579,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Trish",
+            "iconAssetName": "trishAvatar",
+            "inkVariableName": "trishPoints",
+            "itemIndicators": [
+                { "value": 7.0, "name": "Starting Worm Drama (Flashback)", "description": "<align=\"right\">7 Points</align>" },
+                { "value": 20.0, "name": "Couldn't have done it without her. (Photo)", "description": "Reach before <b>Episode 5 Scene 8</b><br><align=\"right\">ID: 508C<br>20 Points</align>" }, 
+                { "value": 25.0, "name": "To the future we wanted. To the future we have. (Photo)", "description": "Reach before <b>Episode 7 Scene 12</b><br><align=\"right\">ID: 712A<br>25 Points</align>" },
+                { "value": 27.0, "name": "Trish and Fang (Scene)", "description": "Reach before <b>Episode 8 Scene 8</b><br>Replaces the sleepover scene with Naomi and Naser.<br>Unlocks photo <b>Best friends til the end (ID: 810A)</b>.<br><align=\"right\">27 Points</align>" }
+            ],
+            "sections": [
+                {
+                    "name": "Ring 1",
+                    "value": 1.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.6000000238418579,
+                        "b": 0.6000000238418579,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 2",
+                    "value": 6.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.800000011920929,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 3",
+                    "value": 11.0,
+                    "color": {
+                        "r": 0.800000011920929,
+                        "g": 1.0,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 4",
+                    "value": 16.0,
+                    "color": {
+                        "r": 0.6000000238418579,
+                        "g": 0.800000011920929,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Required for all unlocks",
+                    "value": 27.0,
+                    "color": {
+                        "r": 0.699999988079071,
+                        "g": 0.6000000238418579,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Maximum achievable",
+                    "value": 34.0,
+                    "color": {
+                        "r": 0.800000011920929,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Reed",
+            "iconAssetName": "reedAvatar",
+            "inkVariableName": "reedPoints",
+            "itemIndicators": [
+                { "value": 5.8, "name": "Reed gets it. (Photo)", "description": "Reach before <b>Episode 2 Scene 4</b><br><align=\"right\">ID: 204A<br>6 Points</align>" },
+                { "value": 6.2, "name": "Reed has a crush (Flashback)", "description": "<align=\"right\">6 Points</align>" },
+                { "value": 16.0, "name": "Can always count on Reed to keep us steady. (Photo)", "description": "Reach before <b>Episode 5 Scene 8</b><br><align=\"right\">ID: 508B<br>16 Points</align>" },
+                { "value": 18.0, "name": "Bonfire Talk", "description": "Reach before <b>Episode 7 Scene 7</b><br>Allows you to talk to Reed in the Bonfire scene.<br>Unlocks photo <b>Connective tissue. (ID: 709A)</b>.<br><align=\"right\">18 Points</align>" },
+                { "value": 23.0, "name": "There are no words. (Photo)", "description": "Reach before <b>Episode 8 Scene 12</b><br><align=\"right\">ID: 812A<br>23 Points</align>" }
+            ],
+            "sections": [
+                {
+                    "name": "Ring 1",
+                    "value": 1.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.6000000238418579,
+                        "b": 0.6000000238418579,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 2",
+                    "value": 6.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.800000011920929,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 3",
+                    "value": 11.0,
+                    "color": {
+                        "r": 0.800000011920929,
+                        "g": 1.0,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 4",
+                    "value": 16.0,
+                    "color": {
+                        "r": 0.6000000238418579,
+                        "g": 0.800000011920929,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Required for all unlocks",
+                    "value": 23.0,
+                    "color": {
+                        "r": 0.699999988079071,
+                        "g": 0.6000000238418579,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Maximum achievable",
+                    "value": 25.0,
+                    "color": {
+                        "r": 0.800000011920929,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Naser",
+            "iconAssetName": "naserAvatar",
+            "inkVariableName": "naserPoints",
+            "itemIndicators": [
+                { "value": 8.0, "name": "Naser's jokes (Flashback)", "description": "<align=\"right\">8 Points</align>" },
+                { "value": 14.8, "name": "Keph's redemption arc! (Photo)", "description": "Reach before <b>Episode 6 Scene 4</b><br><align=\"right\">ID: 604A<br>15 Points</align>" },
+                { "value": 15.2, "name": "Bonfire Talk", "description": "Reach before <b>Episode 7 Scene 7</b><br>Allows you to talk to Naser in the Bonfire scene.<br>Unlocks photo <b>Love you, lil bro. (ID: 708A)</b>.<br><align=\"right\">15 Points</align>" },
+                { "value": 20.0, "name": "Together at the end. (photo)", "description": "Reach before <b>Episode 8 Scene 13</b><br><align=\"right\">ID: 814A<br>20 Points</align>" }
+            ],
+            "sections": [
+                {
+                    "name": "Ring 1",
+                    "value": 1.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.6000000238418579,
+                        "b": 0.6000000238418579,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 2",
+                    "value": 6.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.800000011920929,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 3",
+                    "value": 11.0,
+                    "color": {
+                        "r": 0.800000011920929,
+                        "g": 1.0,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 4",
+                    "value": 16.0,
+                    "color": {
+                        "r": 0.6000000238418579,
+                        "g": 0.800000011920929,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Required for all unlocks",
+                    "value": 20.0,
+                    "color": {
+                        "r": 0.699999988079071,
+                        "g": 0.6000000238418579,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Maximum achievable",
+                    "value": 22.0,
+                    "color": {
+                        "r": 0.800000011920929,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Naomi",
+            "iconAssetName": "naomiAvatar",
+            "inkVariableName": "naomiPoints",
+            "itemIndicators": [
+                { "value": 7.0, "name": "Student council (Flashback)", "description": "<align=\"right\">7 Points</align>" },
+                { "value": 9.8, "name": "I really hope she's not the ones writing these skits. For her sake. (Photo)", "description": "Reach before <b>Episode 4 Scene 1</b><br><align=\"right\">ID: 401A<br>10 Points</align>" },
+                { "value": 10.2, "name": "Naomi BotB", "description": "Unlocks a scene in the BotB where you talk to Naomi before the performance.<br><align=\"right\">10 Points</align>" },
+                { "value": 20.0, "name": "...It was always her. (Photo)", "description": "Reach before <b>Episode 5 Scene 10</b><br><align=\"right\">ID: 510A<br>20 Points</align>" },
+                { "value": 25.0, "name": "She's the bravest out of all of us. (Photo)", "description": "Reach before <b>Episode 7 Scene 12</b><br><align=\"right\">ID: 712B<br>25 Points</align>" }
+            ],
+            "sections": [
+                {
+                    "name": "Ring 1",
+                    "value": 1.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.6000000238418579,
+                        "b": 0.6000000238418579,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 2",
+                    "value": 6.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.800000011920929,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 3",
+                    "value": 11.0,
+                    "color": {
+                        "r": 0.800000011920929,
+                        "g": 1.0,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 4",
+                    "value": 16.0,
+                    "color": {
+                        "r": 0.6000000238418579,
+                        "g": 0.800000011920929,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Required for all unlocks",
+                    "value": 25.0,
+                    "color": {
+                        "r": 0.699999988079071,
+                        "g": 0.6000000238418579,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Maximum achievable",
+                    "value": 30.0,
+                    "color": {
+                        "r": 0.800000011920929,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Rosa",
+            "iconAssetName": "rosaAvatar",
+            "inkVariableName": "rosaPoints",
+            "itemIndicators": [
+                { "value": 3.0, "name": "Rosa and Sage (Flashback)", "description": "<align=\"right\">3 Points</align>" },
+                { "value": 5.0, "name": "She's pretty cool, actually. (Photo)", "description": "Reach before <b>Episode 4 Scene 6</b><br><align=\"right\">ID: 406A<br>5 Points</align>" },
+                { "value": 10.0, "name": "Bonfire Talk", "description": "Reach before <b>Episode 7 Scene 3</b><br>Allows you to talk to Rosa in the Bonfire scene.<br>Unlocks photo <b>I'm glad we met. (ID: 703A)</b>.<br><align=\"right\">10 Points</align>" }
+            ],
+            "sections": [
+                {
+                    "name": "Ring 1",
+                    "value": 1.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.6000000238418579,
+                        "b": 0.6000000238418579,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 2",
+                    "value": 6.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.800000011920929,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Required for all unlocks",
+                    "value": 10.0,
+                    "color": {
+                        "r": 0.699999988079071,
+                        "g": 0.6000000238418579,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Maximum achievable",
+                    "value": 13.0,
+                    "color": {
+                        "r": 0.800000011920929,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Stella",
+            "iconAssetName": "stellaAvatar",
+            "inkVariableName": "stellaPoints",
+            "itemIndicators": [
+                { "value": 4.0, "name": "New girl (Flashback)", "description": "<align=\"right\">4 Points</align>" },
+                { "value": 5.0, "name": "Bonfire Talk", "description": "Reach before <b>Episode 7 Scene 3</b><br>Allows you to talk to Stella in the Bonfire scene.<br>You will unlock photo <b>The strength to carry on. (ID: 705A)</b>.<br><align=\"right\">5 Points</align>" },
+                { "value": 10.0, "name": "Thanks for everything, Stel. (Photo)", "description": "Reach before <b>Episode 8 Scene 14</b><br><align=\"right\">ID: 814C<br>10 Points</align>" }
+            ],
+            "sections": [
+                {
+                    "name": "Ring 1",
+                    "value": 1.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.6000000238418579,
+                        "b": 0.6000000238418579,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 2",
+                    "value": 6.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.800000011920929,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Required for all unlocks",
+                    "value": 10.0,
+                    "color": {
+                        "r": 0.699999988079071,
+                        "g": 0.6000000238418579,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Sage",
+            "iconAssetName": "sageAvatar",
+            "inkVariableName": "sagePoints",
+            "itemIndicators": [
+                { "value": 5.0, "name": "Bonfire Talk", "description": "Reach before <b>Episode 7 Scene 3</b><br>Allows you to talk to Sage in the Bonfire scene.<br>Unlocks photo <b>Nothing you love is a waste. (ID: 706A)</b>.<br><align=\"right\">5 Points</align>" },
+                { "value": 10.0, "name": "Sage... and Spatcho. (Photo)", "description": "Reach before <b>Episode 8 Scene 14</b><br><align=\"right\">ID: 814B<br>10 Points</align>" }
+            ],
+            "sections": [
+                {
+                    "name": "Ring 1",
+                    "value": 1.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.6000000238418579,
+                        "b": 0.6000000238418579,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Ring 2",
+                    "value": 6.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 0.800000011920929,
+                        "b": 0.5,
+                        "a": 1.0
+                    }
+                },
+                {
+                    "name": "Required for all unlocks",
+                    "value": 10.0,
+                    "color": {
+                        "r": 0.699999988079071,
+                        "g": 0.6000000238418579,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        }
+    ]
+}

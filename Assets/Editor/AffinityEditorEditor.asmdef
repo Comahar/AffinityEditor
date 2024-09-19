@@ -1,0 +1,21 @@
+{
+    "name": "AffinityEditorEditor",
+    "rootNamespace": "AffinityEditor",
+    "references": [
+        "GUID:44a0624f0e370ce478711bd78162745d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Gvh.dll",
+        "Unity.TextMeshPro.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

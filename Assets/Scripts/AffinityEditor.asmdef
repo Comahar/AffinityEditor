@@ -1,0 +1,22 @@
+{
+    "name": "AffinityEditor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "BepInEx.dll",
+        "0Harmony.dll",
+        "Newtonsoft.Json.dll",
+        "Gvh.dll",
+        "Ink-Libraries.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

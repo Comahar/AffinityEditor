@@ -1,0 +1,9 @@
+{
+    "name": "AffinityEditor",
+    "description": "A simple mod for showing your affinity values numerically and in relation to affinity based unlocks. It can also edit characters affinities.",
+    "version_number": "0.1.0",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+    ],
+    "website_url": "https://github.com/Comahar/AffinityEditor"
+}

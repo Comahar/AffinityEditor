@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9057f7f601990a4883b2cb295c4f43e, type: 3}
+  m_Name: ThunderKitSettings
+  m_EditorClassIdentifier: 
+  FirstLoad: 0
+  ShowOnStartup: 1
+  GameExecutable: Goodbye Volcano High.exe
+  GamePath: C:\Users\Efe\Desktop\GVH\Goodbye Volcano High
+  Is64Bit: 1
+  DateTimeFormat: HH:mm:ss:fff
+  CreatedDateFormat: MMM/dd HH:mm:ss
+  ShowLogWindow: 1
+  LogPackageSourceTimings: 0
+  GenerateAssetsProject: 0
+  FixLocalDiskPackages: 0
+  ImageCachePath: Library/MarkdownImageCache
+  CachedImageCount: 2
+  CacheSize: 0.09
+  MarkdownOpenMode: 1
+  SelectedPipeline: {fileID: 11400000, guid: 344fee92014ac82418ad7355b947fd13, type: 2}
+  SelectedManifest: {fileID: 11400000, guid: a0063938ceb5959419fbd619243ba28e, type: 2}
+  QuickAccessPipelines:
+  - {fileID: 11400000, guid: 61f265d46dbde65428a42e01617d23d6, type: 2}
+  - {fileID: 11400000, guid: dde30b3aa35f8884383aa9bb62876913, type: 2}
+  - {fileID: 11400000, guid: 344fee92014ac82418ad7355b947fd13, type: 2}
+  QuickAccessManifests:
+  - {fileID: 11400000, guid: a0063938ceb5959419fbd619243ba28e, type: 2}
+  ImportConfiguration: {fileID: 11400000, guid: 5432f1ac536d3f848aae992c09b64069, type: 2}

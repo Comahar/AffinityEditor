@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4671804107110314507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03063c7a6ec04cc4c82c75cf9bcc8db8, type: 3}
+  m_Name: Copy
+  m_EditorClassIdentifier: 
+  Active: 1
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  ReplaceDirectory: 1
+  Recursive: 0
+  SourceRequired: 1
+  EstablishDestination: 1
+  Source: ./Assets/affinityEditorData.json
+  Destination: <StagingRoot>/Release/BepInEx/plugins/AffinityEditor/affinityEditorData.json
+--- !u!114 &-2148876531145697867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8808e815b3ce9c94e9552cb1dee9e305, type: 3}
+  m_Name: Zip
+  m_EditorClassIdentifier: 
+  Active: 1
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  ArchiveType: 1
+  Source: <StagingRoot>/Release
+  Output: <StagingRoot>/AffinityEditor.zip
+--- !u!114 &-1456948135093397508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03063c7a6ec04cc4c82c75cf9bcc8db8, type: 3}
+  m_Name: Copy
+  m_EditorClassIdentifier: 
+  Active: 1
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  ReplaceDirectory: 1
+  Recursive: 0
+  SourceRequired: 1
+  EstablishDestination: 1
+  Source: <AssetBundleStaging>/affinityeditor.assetbundle
+  Destination: <StagingRoot>/Release/BepInEx/plugins/AffinityEditor/affinityeditor.assetbundle
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3695521163bdd74fa2845bbd3438240, type: 3}
+  m_Name: PackRelease
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 8709779273746659508}
+  - {fileID: -1456948135093397508}
+  - {fileID: -4671804107110314507}
+  - {fileID: -2148876531145697867}
+  QuickAccess: 1
+  manifest: {fileID: 11400000, guid: a0063938ceb5959419fbd619243ba28e, type: 2}
+--- !u!114 &8709779273746659508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03063c7a6ec04cc4c82c75cf9bcc8db8, type: 3}
+  m_Name: Copy
+  m_EditorClassIdentifier: 
+  Active: 1
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  ReplaceDirectory: 1
+  Recursive: 0
+  SourceRequired: 1
+  EstablishDestination: 1
+  Source: <AssemblyStaging>/AffinityEditor.dll
+  Destination: <StagingRoot>/Release/BepInEx/plugins/AffinityEditor/AffinityEditor.dll
